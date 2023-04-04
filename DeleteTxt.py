@@ -1,6 +1,7 @@
 import os
 
-file_path = "/Users/user/Documents/BiglyBT Downloads"
+file_path = "/Users/user/Documents"
+#you may want to change path to Desktop,Downloads etc
 
 if os.path.exists(file_path):
     for root, dirs, files in os.walk(file_path):
